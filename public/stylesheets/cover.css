@@ -1,5 +1,26 @@
-.text-center, .inner-cover {
-    align-content: center,
+body {
+    text-align: right;
+    text-shadow: 5em;
 
-    
+}
+
+h3 {
+    text-align: left;
+    font-size: 30pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-display: block;
+}
+
+.nav-link {
+    padding: 0.5em;
+}
+main {
+    background-color: slategray;
+    text-align: center;
+    padding: 20%
+
+}
+
+footer {
+    text-align: center;
 }
