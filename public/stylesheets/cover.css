@@ -1,3 +1,5 @@
-.inner-cover {
-    align-content: center
+.text-center, .inner-cover {
+    align-content: center,
+
+    
 }
