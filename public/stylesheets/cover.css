@@ -6,21 +6,45 @@ body {
 
 h3 {
     text-align: left;
-    font-size: 30pt;
+    font-size: 40pt;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-display: block;
 }
 
 .nav-link {
     padding: 0.5em;
+    border-style: outset;
+    border-block-start-color: slategray;
+    border-spacing: 1.0em;
+    border-radius: 0.5rem;
+    background-blend-mode: color;
+
+
 }
 main {
-    background-color: slategray;
+    background-color: azure;
     text-align: center;
-    padding: 20%
+    padding: 20%;
+    margin-top: -55px;
+    padding-top: -5px;
 
 }
-
+.cover-heading {
+    font-size: 40pt;
+    color: black;
+    font-style: oblique;
+}
+.lead{
+    font-size: 20pt;
+}
 footer {
     text-align: center;
+    background-color: rgb(75, 44, 44);
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    color: white;
+    margin-bottom: 15px;
+    padding: 0.5%;
+
 }
